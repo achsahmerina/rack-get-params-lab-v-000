@@ -40,7 +40,7 @@ class Application
     if @@items.include?(fruit)
       return "#{fruit} is one of our items"
     else
-      return "Couldn't find #{search}"
+      return "Couldn't find #{fruit}"
     end
   end
 end
