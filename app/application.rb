@@ -36,7 +36,7 @@ class Application
       resp.finish
   end
 
-  def handle_search(search)
+  def handle(search)
     if @@items.include?(search)
       return "#{search} is one of our items"
     else
