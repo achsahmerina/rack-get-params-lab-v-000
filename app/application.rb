@@ -36,9 +36,9 @@ class Application
       resp.finish
   end
 
-  def handle(search)
-    if @@items.include?(search)
-      return "#{search} is one of our items"
+  def handle(fruit)
+    if @@items.include?(fruit)
+      return "#{fruit} is one of our items"
     else
       return "Couldn't find #{search}"
     end
